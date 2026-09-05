@@ -1,4 +1,4 @@
-<h1 align="center">Hi, I'm Lei Siyu</h1>
+<h1 align="center">Hi, I'm Siyu Lei</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/MBTI-INTP--A--H-88619A?style=for-the-badge&logo=googlegemini&logoColor=white" />
   <img src="https://img.shields.io/badge/ROLE-THE_BUILDER-4682B4?style=for-the-badge&logo=buildkite&logoColor=white" />
