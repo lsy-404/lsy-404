@@ -26,7 +26,7 @@
 <h2 align="center">Principles</h2>
 <p align="center">
   The <a href="https://www.un.org/en/about-us/universal-declaration-of-human-rights">Universal Declaration of Human Rights</a>
-  defines what it means to be human — and what it means to be a society worth belonging to.
+  is fundamental to who we are - a creature named human, a society named humanity.
   <br/>
   I choose to build by <a href="https://github.com/lsy-404/The-Programmer-s-Oath/blob/main/README.md">The Programmer's Oath</a>.
 </p>
