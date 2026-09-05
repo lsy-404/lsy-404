@@ -1,11 +1,11 @@
-<h2 align="center">Hi, I'm Lei Siyu</h1>
+<h1 align="center">Hi, I'm Lei Siyu</h1>
 <p align="center">
   <img src="https://img.shields.io/badge/MBTI-INTP--A--H-88619A?style=for-the-badge&logo=googlegemini&logoColor=white" />
   <img src="https://img.shields.io/badge/ROLE-THE_BUILDER-4682B4?style=for-the-badge&logo=buildkite&logoColor=white" />
 </p>
 <h3 align="center">A student from Sichuan, Chengdu, China</h3>
 <h3 align="center">Studying in University of Toronto Mississauga Campus</h3>
-<h5 align="center">My Blog: <a href="https://leisiyu.dev">leisiyu.dev</a></h4>
+<h3 align="center">My Blog: <a href="https://leisiyu.dev">leisiyu.dev</a></h4>
 <p align="center">
   <a href="mailto:leisiyusky@outlook.com">
     <img src="https://img.shields.io/badge/Outlook-leisiyusky@outlook.com-0078D4?style=for-the-badge&logo=mailgun&logoColor=white" />
