@@ -10,13 +10,13 @@ jobs:
     permissions:
       contents: write
     steps:
-      # Patched fork wuyilingwei/metrics@patched (based on v3.34):
+      # Patched fork lsy-404/metrics@patched (based on v3.34):
       #  - null-safe lines plugin (source/plugins/lines/index.mjs:62) so the
       #    null-author commit no longer crashes the render;
       #  - self-contained vendored libvips + SHARP_IGNORE_GLOBAL_LIBVIPS so the
       #    Docker image rebuilds reliably (avoids nokogiri / sharp-libvips 504).
       # Rebuilds the image each run (~5 min). See agents/001 for the investigation.
-      - uses: wuyilingwei/metrics@patched
+      - uses: lsy-404/metrics@patched
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_lines: yes
