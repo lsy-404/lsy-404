@@ -6,7 +6,7 @@
 <h3 align="center">A student from Sichuan, Chengdu, China</h3>
 <h3 align="center">Studying in University of Toronto Mississauga Campus</h3>
 <h3 align="center">My Blog: <a href="https://leisiyu.dev">leisiyu.dev</a></h3>
-<h3 align="center">My Blog: <a href="https://voidcarve.com">Voidcarve Labs</a></h3>
+<h3 align="center"><a href="https://voidcarve.com">Voidcarve Labs</a></h3>
 <p align="center">
   <a href="mailto:leisiyusky@outlook.com">
     <img src="https://img.shields.io/badge/Outlook-leisiyusky@outlook.com-0078D4?style=for-the-badge&logo=mailgun&logoColor=white" />
