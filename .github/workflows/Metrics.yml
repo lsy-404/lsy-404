@@ -1,22 +1,16 @@
 name: Metrics
 on:
-  # Schedule daily updates
   schedule: [{cron: "0 0 * * 0"}]
-  # (optional) Run workflow manually
   workflow_dispatch:
 jobs:
   github-metrics:
     runs-on: ubuntu-latest
+    timeout-minutes: 25
     permissions:
       contents: write
     steps:
-      # Patched fork lsy-404/metrics@patched (based on v3.34):
-      #  - null-safe lines plugin (source/plugins/lines/index.mjs:62) so the
-      #    null-author commit no longer crashes the render;
-      #  - self-contained vendored libvips + SHARP_IGNORE_GLOBAL_LIBVIPS so the
-      #    Docker image rebuilds reliably (avoids nokogiri / sharp-libvips 504).
-      # Rebuilds the image each run (~5 min). See agents/001 for the investigation.
       - uses: lsy-404/metrics@patched
+        timeout-minutes: 20
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           plugin_lines: yes
